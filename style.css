@@ -1,0 +1,8 @@
+ .photocard {
+    display:block;
+    width: 80px; /* Ширина */
+    margin: 0px 20px 50px 5px; /* отступы */
+    border: 1px solid gray;
+    border-radius: 0px; /* Ширина */
+    box-shadow: 0 0 0px #666; /* Ширина */
+             }
