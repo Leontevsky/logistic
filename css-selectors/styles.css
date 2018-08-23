@@ -25,3 +25,41 @@
     font-style: italic;
     background-color: #EEB75A;
 }
+
+.synopsis em {
+    font-style: normal;
+  }
+
+/* 
+basic link styles
+:link – A link the user has never visited.
+:visited – A link the user has visited before.
+:hover – A link with the user’s mouse over it.
+:active – A link that’s being pressed down by a mouse (or finger).
+
+*/ 
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
