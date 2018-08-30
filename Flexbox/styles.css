@@ -102,3 +102,8 @@
   flex: initial;
   width: 300px;
 }
+
+.signup {
+  margin-left: auto;
+  border: 1px solid #fff;
+}
